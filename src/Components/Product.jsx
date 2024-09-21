@@ -17,7 +17,7 @@ const Product = ({logo,live,description,cas,url}) => {
                 </div>
                 <div className='w-[35%] h-full '>
                     <p className='text-sm'>{description}</p>
-                    <div className={`flex w-full items-center mt-5 ${flag ? "opacity-1" : "opacity-0"}`}>
+                    <div className={`flex w-full pb-5 items-center mt-5 ${flag ? "opacity-1" : "opacity-0"}`}>
                         {live===true ? <Button elem={<h1>Live Website</h1>}></Button> : ""}
                         {cas===true ? <Button elem={<h1>Case Study</h1>}></Button> : ""}
                     </div>
