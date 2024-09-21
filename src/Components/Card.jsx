@@ -13,7 +13,7 @@ const Card = ({width,start,para,hover="false"}) => {
                 <h1 className='text-3xl my-5'>Who we are</h1>
             </div>
             
-            <div className='mt-12'>
+            <div className='mt-8'>
                 {
                     start && (
                         <>
